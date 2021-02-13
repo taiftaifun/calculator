@@ -10,10 +10,10 @@ body {
 
 #calc-wrapper {
     border-style: solid;
-    border-width: 0.25rem;
+    border-width: 0.5rem;
     height: 51rem;
     max-height: 90vh;
-    width: 30rem;
+    width: 41rem;
     background-color: rgb(126, 128, 243);
     margin: 5% auto;
     border-radius: 1rem;
@@ -21,7 +21,7 @@ body {
 }
 
 #display-wrap {
-    height: 5rem;
+    height: 10%;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -52,6 +52,10 @@ body {
     height: 8rem;
     margin: 0.25%;
     border-radius: 0.75rem;
+}
+
+#clear {
+    flex-basis: 49%;
 }
 
 button {
